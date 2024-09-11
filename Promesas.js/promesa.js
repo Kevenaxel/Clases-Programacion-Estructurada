@@ -9,7 +9,7 @@ const promesa = new Promise((resolve, reject)=>{
 })
 
 promesa.then(res =>{
-    console.log('Mensaje:' +res)
+    console.log('Mensaje:' + res)
 })
 .catch(error=>{
     console.log('Error:'+ error)
