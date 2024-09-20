@@ -34,8 +34,12 @@ function calcularDescuento (){
             precioF = compra - (compra*descuento)
 
             if (descuento> 0){
-                console.log(`Felicidades tienes un descuento del ${descuento*100}%, su total a pagar es de $${precioF}`)
+                console.log(`Felicidades tienes un descuento del ${descuento*100}%, su total a pagar es de $${precioF.toFixed(2)}`)
+            }else{
+                console.log(`No aplica para un descuento especial, su total es de $${precioF.toFixed(2)} `)
             }
+            rl.close();
         })
     })
 }
+calcularDescuento();
