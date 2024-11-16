@@ -8,7 +8,7 @@ fs.readFile(fileName,'utf8', (err,data)=>{
     }
     try{
         const estudiantes = JSON.parse(data);
-        estudiantes[0].edad = '69'
+        estudiantes[0].edad = '100'
 
         fs.writeFile(fileName,JSON.stringify(estudiantes,null,2),(error)=>{
             if(err){

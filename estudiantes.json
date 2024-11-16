@@ -1,10 +1,5 @@
 [
   {
-    "nombre": "Juan",
-    "edad": "69",
-    "carrera": "Ingenieria en DS"
-  },
-  {
     "nombre": "Ana",
     "edad": 19,
     "carrera": "Ingenieria en DS"
@@ -13,6 +8,11 @@
     "nombre": "Karla",
     "edad": 22,
     "carrera": "Ingenieria en civil"
+  },
+  {
+    "nombre": "Carlos",
+    "edad": 18,
+    "carrera": "Ingenieria Industrial"
   },
   {
     "nombre": "Carlos",
